@@ -1,0 +1,78 @@
+.left {
+  height: 150px;
+  border-radius: 25px;
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+.right {
+  height: 150px;
+  float: left;
+  width: 65%;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.cat {
+  color: white;
+  background-color: #3d3bee;
+  height: 27.73px;
+  width: 65px;
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0 8px 30px 0 rgba(61, 59, 238, 0.31);
+}
+.catFill {
+  padding-top: 3px;
+}
+
+.Movie {
+  margin-left: 11%;
+  margin-right: 3%;
+  width: 30%;
+  float: left;
+  height: 20%;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 30px 0 rgba(227, 227, 227, 0.37);
+}
+.greyText {
+  color: gray;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.modalButton {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 0;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  .Movie {
+    width: 90%;
+    float: left;
+    margin: 0;
+    height: 200px;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-bottom: 5px;
+  }
+  .left {
+    width: 30%;
+    margin: 0;
+    padding-right: 5px;
+  }
+  .right {
+    width: 60%;
+    margin: 0;
+  }
+
+  .catFill {
+    padding-top: 4px;
+  }
+}

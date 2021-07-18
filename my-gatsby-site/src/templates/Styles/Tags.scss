@@ -1,0 +1,38 @@
+.tagsPlace {
+  width: 88%;
+  padding-bottom: 20px;
+  float: right;
+}
+.tagButton {
+  margin-right: 5px;
+  width: 71px;
+  height: 24px;
+  text-align: center;
+  border-radius: 12px;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 8px 30px 0 rgba(227, 227, 227, 0.37);
+}
+.tagButtonClicked {
+  margin-right: 5px;
+  width: 71px;
+  height: 24px;
+  text-align: center;
+  border-radius: 12px;
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 3px 14px 0 rgba(248, 163, 17, 0.31);
+}
+
+@media only screen and (max-width: 750px) {
+  .tagsPlace {
+    margin-left: 5%;
+    width: 95%;
+  }
+}
